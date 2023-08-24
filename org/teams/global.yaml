@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: global-team
+  description: Global
+spec:
+  type: Team
+  profile:
+    displayName: USCIS Global
+  parent: uscis
+  children: []
+  members:
+    - tbaird
+    - ddegroot
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: global-team-members
+spec:
+  targets:
+    - ../users/tbaird.yaml
+    - ../users/ddegroot.yaml

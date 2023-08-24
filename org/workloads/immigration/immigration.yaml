@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: immigration-web
+  description: Immigration Web App
+  annotations:
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/part-of=immigration"
+spec:
+  type: service
+  lifecycle: production
+  owner: global-team
+  system: immigration

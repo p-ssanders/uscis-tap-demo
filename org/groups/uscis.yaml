@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: uscis
+  description: U.S. Citizenship and Immigration Services
+  links:
+    - url: https://www.uscis.gov/about-us
+      title: U.S. Citizenship and Immigration Services
+spec:
+  type: group
+  profile:
+    displayName: U.S. Citizenship and Immigration Services
+    email: contact@uscis.gov
+  parent: dhs
+  children:
+    - global-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: uscis-teams
+spec:
+  targets:
+    - ../teams/global.yaml
