@@ -4,7 +4,7 @@ metadata:
   name: immigration-jobs
   description: Immigration Job Processor
   annotations:
-    backstage.io/kubernetes-label-selector: "app.kubernetes.io/part-of=immigration"
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/part-of=immigration-jobs"
 spec:
   type: service
   lifecycle: production
