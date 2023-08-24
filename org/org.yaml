@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: dhs
+  name: DHS
   description: U.S. Department of Homeland Security
   links:
     - url: https://www.dhs.gov/
@@ -13,7 +13,7 @@ spec:
     displayName: U.S. Department of Homeland Security
     email: contact@dhs.gov
   children:
-    - uscis
+    - USCIS
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location

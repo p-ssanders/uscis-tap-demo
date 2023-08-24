@@ -7,7 +7,7 @@ spec:
   type: Team
   profile:
     displayName: USCIS Global
-  parent: uscis
+  parent: USCIS
   children: []
   members:
     - tbaird

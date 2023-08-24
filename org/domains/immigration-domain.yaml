@@ -4,4 +4,4 @@ metadata:
   name: immigration
   description: Immigration Domain
 spec:
-  owner: uscis
+  owner: USCIS

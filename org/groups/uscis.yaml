@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: uscis
+  name: USCIS
   description: U.S. Citizenship and Immigration Services
   links:
     - url: https://www.uscis.gov/about-us
