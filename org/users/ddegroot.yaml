@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: ddegroot
+  namespace: global
   tags:
     - engineer
 spec:

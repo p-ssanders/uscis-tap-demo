@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: USCIS
+  namespace: global
   description: U.S. Citizenship and Immigration Services
   links:
     - url: https://www.uscis.gov/about-us
@@ -19,6 +20,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: uscis-teams
+  namespace: global
 spec:
   targets:
     - ../teams/global.yaml

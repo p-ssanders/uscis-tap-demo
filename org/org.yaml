@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: DHS
+  namespace: global
   description: U.S. Department of Homeland Security
   links:
     - url: https://www.dhs.gov/
@@ -19,6 +20,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: uscis-subgroup
+  namespace: global
 spec:
   targets:
     - ./groups/uscis.yaml

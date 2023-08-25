@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: immigration
+  namespace: global
   description: Immigration Management
 spec:
   owner: global-team

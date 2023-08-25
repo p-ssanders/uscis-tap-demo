@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: immigration
+  namespace: global
   description: Immigration Domain
 spec:
   owner: USCIS
