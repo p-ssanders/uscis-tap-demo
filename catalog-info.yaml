@@ -23,7 +23,6 @@ metadata:
   namespace: global
 spec:
   targets:
-  targets:
     - ./org/groups/uscis.yaml
     - ./org/domains/immigration-domain.yaml
     - ./org/domains/case-management-domain.yaml
