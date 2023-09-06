@@ -26,4 +26,3 @@ spec:
     - ./org/groups/uscis.yaml
     - ./org/domains/
     - ./org/systems/
-    - ./org/users/
