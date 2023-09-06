@@ -24,7 +24,5 @@ metadata:
 spec:
   targets:
     - ./org/groups/uscis.yaml
-    - ./org/domains/immigration-domain.yaml
-    - ./org/domains/case-management-domain.yaml
-    - ./org/systems/immigration-system.yaml
-    - ./org/systems/case-management-system.yaml
+    - ./org/domains/
+    - ./org/systems/
