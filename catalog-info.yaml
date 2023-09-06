@@ -23,6 +23,7 @@ metadata:
   namespace: global
 spec:
   targets:
-    - ./org/groups/
+    - ./org/groups/uscis.yaml
     - ./org/domains/
     - ./org/systems/
+    - ./org/users/
