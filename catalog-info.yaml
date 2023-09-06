@@ -26,4 +26,3 @@ spec:
     - ./org/groups/
     - ./org/domains/
     - ./org/systems/
-    - ./org/users/
