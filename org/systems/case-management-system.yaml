@@ -6,4 +6,4 @@ metadata:
   description: Case Management
 spec:
   owner: global-team
-  domain: case-management
+  domain: immigration-domain
