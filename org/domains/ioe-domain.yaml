@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: tdd-technology
-  namespace: tdd
-  description: TDD Domain
+  name: ioe--domain
+  namespace: ioe
+  description: IOE Domain
 spec:
   owner: USCIS

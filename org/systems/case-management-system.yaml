@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: case-management
+  name: case-management-system
   namespace: global
   description: Case Management
 spec:
   owner: global-team
-  domain: immigration-domain
+  domain: case-management-domain
